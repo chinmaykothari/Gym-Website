@@ -1,0 +1,155 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333; 
+  padding: 10px;
+}
+
+.head a {
+  color: white; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+.logo {
+  display: block;
+  width: 20%;
+  margin: 12px auto;
+  align-self: flex-start;
+}
+body {
+  font-family: Helvetica;
+  margin: 0;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: 0.7em 0 0.3em 0;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.site-navigation {
+  float: right;
+}
+
+.site-navigation ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+.section:nth-child(even) .visual {
+  margin-right: 30px;
+}
+
+.photo-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.all-cards {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.card {
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.cards{
+  background-color: #7bc7d1;
+  border-radius: 5px;
+  width: 300px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 black;
+}
+.cards:hover{
+  transform: scale(1.05);
+    transition: all 0.6s linear;
+}
+
+.cards img{
+  max-width: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.photo {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.trainer-section{
+  background: url("https://youtu.be/tUykoP30Gb0");
+}
+
+#about{
+  padding: 20px;
+}
+
+.trainer{
+  padding: 20px;
+}
+
+.about-header{
+  color: red;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.bgimg{
+  background-image:url("/Users/chinmaykothari/Downloads/3d-rendering-modern-loft-gym-fitness.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+}
